@@ -1,0 +1,117 @@
+body {
+    background: #BBBFCB;
+}
+
+.navbar-brand {
+    flex: content;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    padding-left: 28px;
+    padding-right: 23px;
+}
+
+.nav-link {
+    flex: content;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    padding-left: 28px;
+    padding-right: 23px;
+}
+
+.container {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#header-nav {
+    padding: 83px 0 0 0;
+}
+
+#footer-nav {
+    padding: 15px 0 83px 0;
+}
+
+#container-left-top {
+    border-radius: 56px 0 0 0;
+    width: 50%;
+    height: 644px;
+    background-color: #363753D6;
+    padding-top: 26px;
+}
+
+#container-right-top {
+    border-radius: 0 56px 0 0;
+    width: 50%;
+    height: 644px;
+    background-color: #363753;
+    padding-top: 10px;
+}
+
+.img-linkedin,
+.img-projects,
+.img-github {
+    background-color: rgba(92, 210, 198, 0.37);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-linkedin img,
+.img-projects img,
+.img-github img {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    background-color: #D4D4D4;
+    height: 120px;
+}
+
+.title h1 {
+    color: #000;
+    text-align: center;
+    font-size: 48px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#container-left {
+    border-radius: 0 0 0 56px;
+    width: 50%;
+    height: 250px;
+    background-color: #363753D6;
+}
+
+#container-right {
+    border-radius: 0 0 56px 0;
+    width: 50%;
+    height: 250px;
+    background-color: #363753;
+}
+
+.footer h1 {
+    color: #000;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.slide-text {
+    color: #000;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
